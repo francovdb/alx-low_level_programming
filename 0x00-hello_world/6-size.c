@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main = Entry Point
- * Print size of various types
- * Return 0
+ * main - Entry point
+ * print size
+ * Return: 0
  */
 int main(void)
 {
