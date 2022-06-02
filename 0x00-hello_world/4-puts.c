@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
-*main = entry point
-*message
-*Return:0
-*/
-
 int main(void)
 
 {
