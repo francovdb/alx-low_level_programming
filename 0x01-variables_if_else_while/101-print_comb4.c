@@ -6,34 +6,45 @@
  */
 int main(void)
 {
-int numb1;
-int numb2;
-int numb3;
-for (numb1 = 48; numb1 < 58; numb1++)
-{
-for (numb2 = numb1; numb2 < 58; numb2++)
-{
-for (numb3 = numb2; numb3 < 58; numb3++)
-{
-if (numb1 == numb2 || numb2 == numb3 || numb1 == numb3)
-{
-continue;
-}
-putchar(numb1);
-putchar(numb2);
-putchar(numb3);
-if (numb1 == 55 && numb2 == 56 && numb3 == 57)
-{
-break;
-}
-else
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
-putchar('\n');
-return (0);
+	int num1;
+	int num2;
+	int num3;
+
+	for (num1 = 48; num1 < 58; num1++)
+	{
+
+		for (num2 = num1; num2 < 58; num2++)
+		{
+
+			for (num3 = num2; num3 < 58; num3++)
+			{
+
+				if (num1 == num2 || num2 == num3 || num1 == num3)
+				{
+					continue;
+				}
+
+				putchar(num1);
+				putchar(num2);
+				putchar(num3);
+
+				if (num1 == 55 && num2 == 56 && num3 == 57)
+				{
+					break;
+				}
+				else
+				{
+
+					putchar(',');
+					putchar(' ');
+
+				}
+
+			}
+
+		}
+
+	}
+	putchar('\n');
+	return (0);
 }
