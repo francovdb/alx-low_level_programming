@@ -6,20 +6,24 @@
  */
 int main(void)
 {
-int numb1;
-int numb2;
-for (numb1 = 0; numb1 < 9; numb1++)
-{
-for (numb2 = numb1 + 1; numb2 < 10; numb2++)
-{
-putchar((numb1 % 10) + '0');
-putchar((numb2 % 10) + '0');
-if (numb1 == 8 && numb2 == 9)
-continue;
-putchar(',');
-putchar(' ');
-}
-}
-putchar('\n');
-return (0);
+	int num1;
+	int num2;
+
+	for (num1 = 48; num1 < 58; num1++)
+	{
+		for (num2 = num1; num2 < 58; num2++)
+		{
+			if (num1 == 56 && num2 == 57)
+			{
+				break;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
