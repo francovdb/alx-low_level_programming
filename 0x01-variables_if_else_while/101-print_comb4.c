@@ -12,13 +12,10 @@ int main(void)
 
 	for (num1 = 48; num1 < 58; num1++)
 	{
-
 		for (num2 = num1; num2 < 58; num2++)
 		{
-
 			for (num3 = num2; num3 < 58; num3++)
 			{
-
 				if (num1 == num2 || num2 == num3 || num1 == num3)
 				{
 					continue;
@@ -34,16 +31,11 @@ int main(void)
 				}
 				else
 				{
-
 					putchar(',');
 					putchar(' ');
-
 				}
-
 			}
-
 		}
-
 	}
 	putchar('\n');
 	return (0);
