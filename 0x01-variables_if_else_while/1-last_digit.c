@@ -10,21 +10,15 @@ int main(void)
 {
 	int n;
 	int Digit;
-
 	srand(time(0));
-	n = rand () - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 Digit = n % 10;
+printf("Last digit of %i is %i and is ", n, Digit);
 if (Digit > 5)
-{
-printf("Last digit of %d is %d and is greater than 5\n", n, Digit);
-}
-else if (Digit < 6 && Digit != 0)
-{
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, Digit);
-}
+printf("greater than 5\n");
+else if (Digit == 0)
+printf("0\n");
 else
-{
-printf("Last digit of %d is %d and is 0\n", n, Digit);
-}
+printf("less than 6 and not 0\n");
 return (0);
 }
