@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - Entry Point
- * searches for lowercase
+ * _islowe - Entry Point
+ * @c: searches for lowercase c
  * Return: 1 & 0
  */
 int _islower(int c)
