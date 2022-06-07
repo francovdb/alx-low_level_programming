@@ -8,9 +8,9 @@
 int main(void)
 {
 long int Cntr;
-a = 1;
-b = 2;
-sum = 0;
+long int a = 1;
+long int b = 2;
+long int sum = 0;
 for (Cntr = 0; Cntr < 49; Cntr++)
 {
 printf("%ld, ", a);
