@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - Entry Point
- * Putchar numbers 0 to 9 excluding 2 and 4
+ * putchar numbers 0 to 9 excluding 2 and 4
  * Return: void
  */
 
