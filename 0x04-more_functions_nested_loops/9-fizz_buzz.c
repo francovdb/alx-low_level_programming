@@ -26,6 +26,9 @@ int main(void)
 
 		if (Cntr < 100)
 			printf(" ");
+		
+		else
+			print("\n");
 	}
 	return (0);
 }
