@@ -28,7 +28,7 @@ int main(void)
 			printf(" ");
 		
 		else
-			print("\n");
+			printf("\n");
 	}
 	return (0);
 }
