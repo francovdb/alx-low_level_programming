@@ -9,8 +9,8 @@
 
 void print_diagonal(int n)
 {
-	int Cntr;
-	int RowCntr;
+	int row;
+       	int num_lines;
 
 	if (n <= 0)
 	{
@@ -18,11 +18,11 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (RowCntr = 1; RowCntr <= n; RowCntr++)
+		for (row = 1; row <= n; row++)
 		{
-			if (RowCntr > 1)
+			if (row > 1)
 			{
-				for (Cntr = 1; Cntr <= RowCntr; Cntr++)
+				for (num_lines = 1; num_lines <= row - 1; num_lines++)
 				{
 					_putchar(' ');
 				}
@@ -32,3 +32,4 @@ void print_diagonal(int n)
 		}
 	}
 }
+
