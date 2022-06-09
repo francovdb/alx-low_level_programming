@@ -2,7 +2,9 @@
 
 /**
  * print_numbers - Entry Point
+ *
  * _putchar numbers from 0 to 9
+ *
  * Return: void
  */
 
