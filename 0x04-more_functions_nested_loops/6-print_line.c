@@ -3,6 +3,7 @@
 /**
  * print_line - Entry Point
  * draws straight line in terminal
+ * @n: number of lines
  * Return: void
  */
 
