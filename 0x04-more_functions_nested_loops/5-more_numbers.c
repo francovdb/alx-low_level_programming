@@ -19,13 +19,12 @@ void more_numbers(void)
 		{
 			tens = num / 10;
 			unit = num % 10;
-			
 			if (num > 9)
 			{
-				_putchar(tens + '0');
+				_putchar(ten + '0');
 			}
-			
 			_putchar(unit + '0');
 		}
+		_putchar('\n');
 	}
 }
