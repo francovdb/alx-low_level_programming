@@ -21,7 +21,7 @@ void more_numbers(void)
 			unit = num % 10;
 			if (num > 9)
 			{
-				_putchar(ten + '0');
+				_putchar(tens + '0');
 			}
 			_putchar(unit + '0');
 		}
