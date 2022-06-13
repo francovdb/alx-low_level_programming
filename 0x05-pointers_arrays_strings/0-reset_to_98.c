@@ -3,6 +3,7 @@
 /**
  * reset_to_98 - Entry Point
  * pointer to int as parameter and update value to 98
+ * @n: pointer
  * Return: void
  */
 
