@@ -6,7 +6,7 @@
  * prints n elements of an array of integers
  * @a: array
  * @n: number
- * Return: void 
+ * Return: void
  */
 
 void print_array(int *a, int n)
@@ -19,9 +19,8 @@ void print_array(int *a, int n)
 
 		if (Cntr == n - 1)
 			continue;
-		
+
 		printf(", ");
 	}
-
 	printf("\n");
 }
