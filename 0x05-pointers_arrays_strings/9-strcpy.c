@@ -2,7 +2,7 @@
 
 /**
  * _strcpy - entry Point
- * copies string pointed to by src, incl terminating null byte (\0) to buffer pointed to by dest
+ * copy string by src, incl terminating null byte to buffer by dest
  * @dest: Destitation
  * @src: Source
  * Return: dest
