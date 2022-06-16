@@ -11,33 +11,24 @@ char *cap_string(char *p)
 {
 	int Cntr = 0;
 
-	while (p[Cntr])
+	while (p[Cntr] != '\0')
 	{
-		while (!(p[Cntr] >= 'a' && p[Cntr] <= 'z'))
+		if (p[0] >= 'a' && p[0] <= 'z')
 		{
-			Cntr++;
+			p[0] = p[0] - 32;
 		}
-
-		if (p[Cntr - 1] == ' ' ||
-			p[Cntr - 1] == '\t' ||
-			p[Cntr - 1] == '\n' ||
-			p[Cntr - 1] == ',' ||
-			p[Cntr - 1] == ';' ||
-			p[Cntr - 1] == '.' ||
-			p[Cntr - 1] == '!' ||
-			p[Cntr - 1] == '?' ||
-			p[Cntr - 1] == '"' ||
-			p[Cntr - 1] == '(' ||
-			p[Cntr - 1] == ')' ||
-			p[Cntr - 1] == '{' ||
-			p[Cntr - 1] == '}' ||
-			Cntr == 0)
+		if (p[Cntr] == ' ' || p[Cntr] == '\t' || p[Cntr] == '\n'
+		    || p[Cntr] == ',' || p[Cntr] == ';' || p[Cntr] == '.'
+		    || p[Cntr] == '.' || p[Cntr] == '!' || p[Cntr] == '?'
+		    || p[Cntr] == '"' || p[Cntr] == '(' || p[Cntr] == ')'
+		    || p[Cntr] == '{' || p[Cntr] == '}')
 		{
-			p[Cntr] -= 32;
+			if (p[Cntr + 1] >= 'a' && p[Cntr + 1] <= 'z')
+			{
+				p[Cntr + 1] = p[Cntr + 1] - 32;
+			}
 		}
-
 		Cntr++;
 	}
-
 	return (p);
 }
