@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * _strncpy - Entry Point
@@ -11,12 +11,12 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int byteCount;
+	int Cntr;
 
-	for (byteCount = 0; byteCount < n && src[byteCount] != '\0'; byteCount++)
-		dest[byteCount] = src[byteCount];
-	for (; byteCount < n; byteCount++)
-		dest[byteCount] = '\0';
+	for (Cntr = 0; Cntr < n && src[Cntr] != '\0'; Cntr++)
+		dest[Cntr] = src[Cntr];
+	for (; Cntr < n; Cntr++)
+		dest[Cntr] = '\0';
 
 	return (dest);
 }
