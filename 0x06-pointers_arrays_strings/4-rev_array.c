@@ -12,7 +12,6 @@ void reverse_array(int *a, int n)
 	int Cntr = 0;
 
 	n = n - 1;
-
 	while (Cntr <= n)
 	{
 		temp = a[Cntr];
