@@ -26,9 +26,9 @@ char *rot13(char *p)
 	{
 		for (Cntr2 = 0; Cntr2 < 53; Cntr2++)
 		{
-			if (r1[Cntr2] == p[Cntr1])
+			if (alpha[Cntr2] == p[Cntr1])
 			{
-				p[Cntr1] = r2[Cntr2];
+				p[Cntr1] = rot13[Cntr2];
 				break;
 			}
 		}
