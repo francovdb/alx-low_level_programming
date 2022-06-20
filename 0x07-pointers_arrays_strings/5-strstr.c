@@ -8,23 +8,21 @@
  * Return: NULL
  */
 
-char *_strstr(char *haystack, char *needle)
+char  *_strstr(char *haystack, char *needle)
 {
-int Cntr;
-if (*needle == 0)
-return (haystack);
-while (*haystack)
+char *str1, *str2;
+while (*haystack != '\0')
 {
-Cntr = 0;
-if (haystack[Cntr] == needle[Cntr])
+str1 = haystack;
+str2 = needle;
+while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
 {
-do{
-if (needle[Cntr + 1] == '\0')
-return (haystack);
-Cntr++;
-} while (haystack[Cntr] == needle[Cntr]);
-}
 haystack++;
+str2++;
 }
-return ('\0');
+if (*str2 == '\0')
+return (str1);
+haystack = str1 + 1;
+}
+return (0);
 }
