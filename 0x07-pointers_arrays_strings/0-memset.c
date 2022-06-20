@@ -9,7 +9,6 @@
  */
 
 char *_memset(char *s, char b, unsigned int n)
-
 {
 unsigned int Cntr;
 for (Cntr = 0; Cntr < n; Cntr++)
