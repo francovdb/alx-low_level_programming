@@ -40,7 +40,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * _strlen_recursion - Entry Point
+ * check_pal - Entry Point
  * returns 1 if a string is a palindrome and 0 if not
  * An empty string is a palindrome
  * @s: string
