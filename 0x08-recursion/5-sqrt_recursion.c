@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - Entry Point
+ * actual_sqrt_recursion - Entry Point
  * returns the natural square root of a number
  * @n: number
  * @root: root
