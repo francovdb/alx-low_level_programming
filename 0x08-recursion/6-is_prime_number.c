@@ -1,13 +1,13 @@
 #include "main.h"
 
+int actual_prime(int n, int Cntr);
+
 /**
- * _prime_number - Entry Point
+ * is_prime_number - Entry Point
  * returns 1 if the input integer is a prime number, otherwise return 0
  * @n: number
  * Return: 1 or 0
  */
-
-int actual_prime(int n, int Cntr);
 
 int is_prime_number(int n)
 {
