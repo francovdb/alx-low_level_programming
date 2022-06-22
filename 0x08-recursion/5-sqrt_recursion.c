@@ -21,6 +21,13 @@ int _sqrt_recursion(int n)
 	return (actual_sqrt_recursion(n, 0));
 }
 
+/**
+ * actual_sqrt_recursion - Entry Point
+ * returns the natural square root of a number
+ * @n: number
+ * @root: root
+ * Return: sqrt of n
+ */
 
 int actual_sqrt_recursion(int n, int root)
 {
