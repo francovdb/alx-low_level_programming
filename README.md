@@ -9,4 +9,5 @@ README for Repository
 - 0x06-pointers_arrays_strings
 - 0x07-pointers_arrays_strings
 - 0x08-recursion
+- 0x09-static_libraries
 
