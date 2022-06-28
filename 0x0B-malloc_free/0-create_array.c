@@ -28,7 +28,7 @@ char *create_array(unsigned int size, char c)
 
 	for (Cntr = 0; Cntr < size; Cntr++)
 	{
-		create[CNTR] = c;
+		create[Cntr] = c;
 	}
 
 	return (create);
