@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * strdup = Entry Point
+ * _strdup = Entry Point
  * return pointer to new allocated space in memory with a copy of the string
  * @str: string
  * Return: NULL
