@@ -47,9 +47,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	allocate = mem;
 
 	for (Cntr = 0; Cntr < old_size && Cntr < new_size; Cntr++)
-	{
 		allocate[Cntr] = *ptr_copy++;
-	}
 
 	free(ptr);
 	return (mem);
