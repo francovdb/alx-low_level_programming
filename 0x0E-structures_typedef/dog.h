@@ -4,7 +4,8 @@
 int _putchar (char c);
 
 /**
- * struct dog - data structure
+ * struct dog - Entry point
+ * data structure
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
