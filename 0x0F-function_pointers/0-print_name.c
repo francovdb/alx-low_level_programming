@@ -3,6 +3,7 @@
 /**
  * print_name - Entry Point
  * prints a name
+ * @name: name
  * @f: pointer
  * Return: void
  */
