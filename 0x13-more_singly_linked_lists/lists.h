@@ -1,5 +1,5 @@
 #ifndef LISTS_H_
-#define LISTS_H
+#define LISTS_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +19,7 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * listp_s - Entry Point
+ * struct listp_s - Entry Point
  * singly linked list of pointers
  * @p: pointer
  * @next: next node
