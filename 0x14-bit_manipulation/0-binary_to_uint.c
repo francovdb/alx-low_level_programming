@@ -11,12 +11,12 @@ unsigned int binary_to_uint(const char *b)
 {
 	int Cntr;
 	unsigned int num = 0;
-	
+
 	if (!b)
 	{
 		return (0);
 	}
-	
+
 	for (Cntr = 0; b[Cntr]; Cntr++)
 	{
 		if (b[Cntr] < '0' || b[Cntr] > '1')
